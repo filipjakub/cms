@@ -18,9 +18,9 @@ Vue.component('cms-menu', {
 		</div>
 	</div>`,
 	data() {
-        return {
-            collapsed: localStorage.getItem('cms-menu-collapsed') === '1' ?? false,
-        }
+		return {
+			collapsed: localStorage.getItem('cms-menu-collapsed') === '1' ?? false,
+		}
 	},
 	methods: {
 		toggle() {
